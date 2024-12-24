@@ -1,0 +1,540 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{ 
+    text-decoration: none;
+}
+
+html, body {
+    font-family: Lato, sans-serif;
+    color: #000000;
+    font-size: 20px;
+    background-color: white
+}
+
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+.header{
+    font-weight: 700;
+}
+
+.container{
+    max-width: 1310px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header_top-inner { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    padding-left: 100px;
+}
+
+.header_top-inner-academy {
+    margin-right: 60px;
+}
+
+.header_nav-list {
+    display: flex;
+    list-style: none;
+}
+.header_nav-item {
+    margin-right: 40px;
+
+}
+.header_nav-item:last-child{
+    margin-right: 0;
+ }
+
+ .header_nav-link { 
+    font-weight: 700;
+    line-height: 1.6;
+    color: #000000;
+    transition: all .3s;
+    white-space: nowrap;
+}
+
+.header_nav-link-user{
+    font-weight: 700;
+    line-height: 1.6;
+    color: #000000;
+    transition: all .3s;
+    white-space: nowrap;
+}
+
+.main{
+    padding: 180px;
+    background-color:white;
+}
+
+.main_inner_{
+    display: flex;
+    flex-direction: column;
+}
+
+.gogo{
+    margin-top: 30px;
+}
+
+.missions{
+    padding-top: 10px;
+}
+
+.popular{
+    padding-top: 10px;
+}
+
+.basic_top{
+    padding-top: 10px;
+}
+
+.basic_photo{
+    height: 600px;
+    width: 1300px;
+    padding-top: 10px;
+    border-radius: 100px;
+}
+
+.portrait_top{
+    padding-top: 10px;
+}
+
+.portrait_photo{
+    padding-top: 10px;
+    border-radius: 100px;
+}
+
+.photoshop_top{
+    padding-top: 10px;
+}
+
+.photoshop_photo{
+    padding-top: 10px;
+    border-radius: 100px;
+}
+
+.night_top{
+    padding-top: 10px;
+}
+
+.night_photo{
+    width: 1200px;
+    height: 500px;
+    padding-top: 10px;
+    border-radius: 100px;
+}
+
+.registration_top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column;
+}
+
+.log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column;
+}
+
+form {
+    border: 1px solid #000000;
+    padding: 20px;
+    width: 300px;
+}
+  
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 90%;
+    margin-bottom: 15px;
+}
+  
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.footer_inner{
+    display: flex;
+    justify-content: center;
+}
+
+.course {
+    border: 1px solid #000000;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.course-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.course-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.course-details {
+    margin-top: 10px;
+}
+
+.filter-buttons {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.filter-button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #000000;
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+
+.active-filter {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.hidden-course {
+    display: none;
+}
+
+.main {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.course-detail {
+    padding: 24px;
+}
+
+.course-info p {
+    margin-bottom: 12px;
+}
+
+.reviews {
+    margin-top: 32px;
+}
+
+.review {
+    border: 1px solid #000000;
+    padding: 16px;
+    margin-bottom: 8px;
+}
+
+.enroll-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    margin: auto;
+}
+
+.sidebar {
+    flex-basis: 200px;
+    padding: 16px;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 24px;
+}
+
+.courses-list li {
+    margin-bottom: 12px;
+}
+
+.material-card ul {
+    margin-left: 20px;
+    list-style: none;
+    font-weight: 700;
+    line-height: 1.6;
+    color: #000000;
+    transition: all .3s;
+    white-space: nowrap;
+    
+}
+
+.kyrs{
+    padding-right: 250px;
+}
+
+.navig{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    list-style: none;
+    font-weight: 700;
+    line-height: 1.6;
+    color: #000000;
+    transition: all .3s;
+    white-space: nowrap;
+}
+
+.courses-list{
+    list-style: none;
+}
+
+.footer_inner1{
+    display: flex;
+    justify-content: center;
+    padding-top: 365px;
+}
+
+.footer_inner2{
+    display: flex;
+    justify-content: center;
+    padding-top: 144px;
+}
+
+.footer_inner3{
+    display: flex;
+    justify-content: center;
+    padding-top: 293px;
+}
+
+.footer_inner4{
+    display: flex;
+    justify-content: center;
+    padding-top: 126px;
+}
+
+.main {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-info, .contact-form, .faqs {
+    flex-basis: 100%;
+    padding: 24px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input, form textarea {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.faqs details summary {
+    cursor: pointer;
+}
+
+.call{
+    padding-left: 20px;
+}
+
+.welcome_bro{
+    list-style: none;
+}
+
+.foto_cs2{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+
+.text_cs2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cs2{
+    width: 400px;
+    height: 300px;
+}
+
+.cs-table {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+.cs-table-header,
+.cs-table-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background-color: #333;
+    color: white;
+    text-align: left;
+}
+
+.cs-table-header > div,
+.cs-table-row > div {
+    flex-basis: 25%;
+    padding-left: 16px;
+}
+
+.cs-table-row:nth-child(even) {
+    background-color: #000000;
+}
+
+.cs-table-row:nth-child(odd) {
+    background-color: #000000;
+}
+
+@media screen and (max-width: 600px) {
+    .cs-table-header,
+    .cs-table-row {
+        flex-wrap: wrap;
+    }
+    
+    .cs-table-header > div,
+    .cs-table-row > div {
+        flex-basis: 50%;
+        padding-bottom: 8px;
+    }
+}
+
+.tabl_lol{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+ul.cs-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+li.cs-item {
+    flex-grow: 1;
+    min-width: 200px;
+    max-width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 0;
+}
+
+.hp-table {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+.hp-table-header,
+.hp-table-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background-color: #333;
+    color: white;
+    text-align: left;
+}
+
+.hp-table-header > div,
+.hp-table-row > div {
+    flex-basis: 33.33%;
+    padding-left: 16px;
+}
+
+.hp-table-row:nth-child(even) {
+    background-color: #000000;
+}
+
+.hp-table-row:nth-child(odd) {
+    background-color: #000000;
+}
+
+@media screen and (max-width: 600px) {
+    .hp-table-header,
+    .hp-table-row {
+        flex-wrap: wrap;
+    }
+    
+    .hp-table-header > div,
+    .hp-table-row > div {
+        flex-basis: 100%;
+        padding-bottom: 8px;
+    }
+}
+
+ul.hp-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+li.hp-item {
+    flex-grow: 1;
+    min-width: 250px;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
